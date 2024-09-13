@@ -3,7 +3,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh;
-    
 }
 .game-box {
     background-color: white;
@@ -40,7 +39,7 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
-.current-score-box {
+.human-score-box, .computer-score-box {
     border-color: #7e7e7e;
     border-radius: 4px;
     border-width: 2px;
@@ -58,11 +57,15 @@ h1 {
     background-color: #45a049;
     color: white;
     padding: 10px 20px;
+    margin: 20px auto;
     border: none;
     border-radius: 2px;
     margin-top: 20px;
     cursor: pointer;
+    display: flex;
     transition: 0.2s;
+    margin-bottom: 0;
+    display: block;
 }
 
 #reset:hover {
